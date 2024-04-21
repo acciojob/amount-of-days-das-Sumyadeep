@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-function daysOfAyear(){
+function daysOfAyear(n){
 
 	if(n % 4 == 0) return 366;
 	else if(n % 100 != 0) return 366;
